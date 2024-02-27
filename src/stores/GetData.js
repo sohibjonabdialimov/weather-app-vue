@@ -8,6 +8,7 @@ import {
 
 export const useGetDataStore = defineStore('getData', () => {
   const information = ref(null);
+  const city = ref("toshkent")
 
   async function getDataFunction() {
     let city_info = JSON.parse(localStorage.getItem("city_information"));
@@ -29,7 +30,7 @@ export const useGetDataStore = defineStore('getData', () => {
         const utc = hour.dt * 1000 + localOffset;
         hour.currentTime = utc + 1000 * data.timezone_offset;
       });
-
+      city.value = localStorage.getItem("city");
       information.value = data;
       localStorage.setItem("data", JSON.stringify(information.value));
     }
@@ -37,6 +38,7 @@ export const useGetDataStore = defineStore('getData', () => {
 
   return {
     information,
+    city,
     getDataFunction
   }
 })

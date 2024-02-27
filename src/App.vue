@@ -17,7 +17,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>
+  <div class="relative w-[1000px] mx-auto border my-10 rounded shadow-xl">
     <Suspense>
       <template #default>
         <Home />
