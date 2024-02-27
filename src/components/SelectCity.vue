@@ -17,9 +17,9 @@ async function handleChange(e) {
   <select
     @change="handleChange"
     id="countries"
-    class="bg-gray-50 border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[200px] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+    class="bg-gray-50 border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[200px] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 shadow-lg"
   >
-    <option selected>Hududni tanlang</option>
+    <option selected disabled>Hududni tanlang</option>
     <option value="toshkent">Toshkent shahri</option>
     <option value="andijon">Andijon</option>
     <option value="namangan">Namangan</option>

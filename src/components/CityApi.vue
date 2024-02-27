@@ -46,7 +46,6 @@
 
       <hr class="border-white border-opacity-10 border w-full" />
 
-      <!-- Hourly Weather -->
       <div class="p-12 w-full">
         <div class="mx-8">
           <h2 class="mb-4">Soatlar bo'yicha</h2>
@@ -77,7 +76,6 @@
 
       <hr class="border-red border-opacity-10 border w-full" />
 
-      <!-- Weekly Weather -->
       <div class="w-full p-12">
         <div class="mx-8">
           <h2 class="mb-4">Hafta kunlari bo'yicha</h2>
@@ -90,7 +88,7 @@
               <tr>
                 <th scope="col" class="px-6 py-3">Day</th>
                 <th scope="col" class="px-6 py-3">Image</th>
-                <th scope="col" class="px-6 py-3">Avarage Temp</th>
+                <th scope="col" class="px-6 py-3">Day Temp</th>
                 <th scope="col" class="px-6 py-3">Maximal Temp</th>
                 <th scope="col" class="px-6 py-3">Minimal Temp</th>
               </tr>
